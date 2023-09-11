@@ -12,7 +12,7 @@ class Pantalla3 : AppCompatActivity() {
 
         val btn: Button = findViewById(R.id.btnVolverP3)
         btn.setOnClickListener{
-            val intent: Intent = Intent(this, pantallaPrincipal::class.java)
+            val intent: Intent = Intent(this, login::class.java)
             startActivity(intent)
         }
     }

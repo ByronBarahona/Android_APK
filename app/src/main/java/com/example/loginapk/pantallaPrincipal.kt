@@ -30,5 +30,11 @@ class pantallaPrincipal : AppCompatActivity() {
             val intent: Intent = Intent(this,Pantalla4::class.java)
             startActivity(intent)
         }
+
+        val btn5: Button = findViewById(R.id.btnSalirPrincipal)
+        btn5.setOnClickListener{
+            val intent: Intent = Intent(this,login::class.java)
+            startActivity(intent)
+        }
     }
 }
