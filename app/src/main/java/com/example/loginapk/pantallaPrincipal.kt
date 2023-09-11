@@ -3,9 +3,9 @@ package com.example.loginapk
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class Pantalla4 : AppCompatActivity() {
+class pantallaPrincipal : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_pantalla4)
+        setContentView(R.layout.activity_pantalla_principal)
     }
 }
