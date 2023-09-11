@@ -34,7 +34,7 @@ class login : AppCompatActivity() {
     private fun ingresar(){
 
         fun pantallaLogin(){
-            val intent = Intent(this, login::class.java)
+            val intent = Intent(this, pantallaPrincipal::class.java)
             startActivity(intent)
         }
 
